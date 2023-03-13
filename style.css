@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+.content{
+    height: 100vh;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* div{
+    padding: 1rem;
+    background-color: goldenrod;
+} */
+
+.container{
+    border-radius: 1rem;
+    border: 1px solid grey;
+}
+.container-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+}
+
+#valueInput{
+    width: 30rem;
+    padding: 1rem;
+    margin: 0 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+#btn-Numbers{
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 80%; */
+    width: 30rem;
+    height: 100%;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+
+.btn{
+    background-color: grey;
+    color: hsl(221, 14%, 31%);
+    height: min-content;
+    /* padding: 15px 24px; */
+    padding: 15px 34px;
+    margin: 1rem;
+    font-size: 32px;
+}
+
+.submit-btn{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background: goldenrod;
+}
+
+.resetBtn{
+    width:58%;
+    background-color: brown;
+    font-size: 32px;
+    border: none;
+}
+
+.submitBtn{
+    width:58%;
+    background-color: brown;
+    font-size: 32px;
+    border: none;
+}
